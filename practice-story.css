@@ -1,0 +1,73 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 62.5%;
+}
+
+p, ul, ol, dl {
+  font-size: 16px;
+  margin-bottom: 2px;
+  line-height: 1.7rem;
+}
+
+article {
+  max-width: 620px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 2.75rem;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 6px 0;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 4px 0;
+}
+
+span {
+  font-style: italic;
+}
+
+.credit {
+  font-family: Arial;
+  margin-left: 63.25%;
+  margin-top: -0.5%;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+#blockquote {
+  border-left: grey solid 4px;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+
+li, ol {
+  list-style-position: none;
+  padding-left: 16px;
+}
+
+#comment-notes {
+  background-color: #ccc;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* I tried putting 'auto' instead of 12px in the padding-top element and personally thought it looked a little cleaner, but since it's 12px on all sides in the instructions I'm just going to assume my slightly wonky box is okay */
+}
